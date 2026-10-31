@@ -1,0 +1,22 @@
+{
+  "name": "@guineakub/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.14.1",
+    "@azure/storage-blob": "^12.34.0",
+    "@guineakub/game-engine": "^0.0.0",
+    "@guineakub/protocol": "0.0.0",
+    "google-auth-library": "^11.3.2",
+    "ws": "^8.18.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.6"
+  }
+}
